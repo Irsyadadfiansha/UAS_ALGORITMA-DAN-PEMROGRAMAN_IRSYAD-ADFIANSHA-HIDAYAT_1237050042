@@ -1,0 +1,108 @@
+.warna1{
+    background-color: #1D5D9B;
+}
+.warna2{
+    background-color: #75C2F6;
+}
+.warna3{
+    background-color: #F4D160;
+}
+.warna4{
+    background-color: #FBEEAC;
+}
+.banner{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/banner.jpg') no-repeat center center;;
+    background-size: cover;
+    background-position: center;
+}
+.banner3{
+    height: 110vh;
+    background: url('../image/Bloobbanner.png');
+    background-position: center;
+}
+.highlighted-kategori{
+    border-radius: 15px;
+            color: #fff;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+    height:250px ;
+}
+.kategori-baju-pria{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/bajupriabloob.png') ;
+    background-size: cover;
+    background-position: center;
+
+}
+.kategori-baju-wanita{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/bajuwanitabloob.png') ;
+    background-size: cover;
+    background-position: center;
+
+}
+.kategori-tas{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/totebagbloob.png') ;
+    background-size: cover;
+    background-position: center;
+
+}
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover{
+    color:#F4D160;
+    transform: scale(1.05);
+}
+.text-harga{
+    font-size: 20px;
+}
+
+.image-box{
+    height: 250px;
+    object-fit: cover;
+            transition: transform 0.5s ease;
+
+}
+
+.image-box img{
+    height: 100% ;
+    width: 100%;
+    object-fit:cover ;
+    object-position: center;
+}
+
+.image-box img:hover {
+    transform: scale(1.1);
+}
+
+.teks-white {
+    color: #fff;
+}
+
+.content-subscribe{
+    background-color: rgba(0,0,0,0.7);
+}
+.content-subscribe a{
+    color: white;
+
+}
+
+.banner2{
+    height: 30vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar-text {
+    font-size: 1.25rem;
+}
+
+.produk-terkait-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
